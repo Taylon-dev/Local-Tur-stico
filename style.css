@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    
+}
+    
+
+body{
+    background-color: #573824;
+    background-size: cover;
+    
+        
+}
+
+
+footer{
+    color: #F0E8C2;
+    text-align: center;
+    padding-bottom: 48px;
+}
+
+footer img {
+    vertical-align: middle;
+    
+}
