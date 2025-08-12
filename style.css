@@ -30,6 +30,58 @@ body{
     border: 1px solid red;
 }
 
+#title h1{
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+#content_list h1{
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+#content_list h2{
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.p_OpenSans{
+    font-family: "Open Sans", sans-serif;
+    color: #E1624F;
+    font-weight: bold;
+}
+
+.bomPara{
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    
+} 
+
+ul{
+    font-family: "Open Sans", sans-serif;
+    color: #0C51A7;
+    font-weight: bold;
+    list-style-position: inside;
+    padding-left: 0;
+
+}
+
+li{
+    text-indent: -0.3em;
+}
+
+.description{
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+}
+
+#description_busan{
+    text-align: center;
+}
+
 #description_img{
     width: 1120px;
     height: 729px;
