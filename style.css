@@ -24,6 +24,11 @@ body{
     
 }
 
+#description_img{
+    margin-top: 40px;
+    
+}
+
 #title{
     width: 1120px;
     height: 79px;
@@ -34,29 +39,103 @@ body{
     font-family: "Open Sans", sans-serif;
     font-weight: bold;
     font-size: 36px;
+    line-height: 49px;
+    
+}
+
+#content_list{
+    margin-top: 40px;
+}
+
+#esp0{
+    height: 8px;
+    border: 1px solid red;
+}
+
+#esp1{
+    height: 24px;
+    border: 1px solid red;
+}
+
+#esp2{
+    height: 64px;
+    border: 1px solid red;
+}
+
+#esp3{
+    height: 64px;
+    border: 1px solid red;
+}
+
+#esp4{
+    height: 20px;
+    border: 1px solid red;
+}
+
+#esp5{
+    height: 4px;
+    border: 1px solid red;
+}
+
+#esp6{
+    height: 48px;
+    border: 1px solid red;
+}
+
+#esp7{
+    height: 20px;
+    border: 1px solid red;
+}
+
+#esp8{
+    height: 4px;
+    border: 1px solid red;
+}
+
+#esp9{
+    height: 48px;
+    border: 1px solid red;
+}
+
+#esp10{
+    height: 20px;
+    border: 1px solid red;
+}
+
+#esp11{
+    height: 4px;
+    border: 1px solid red;
+}
+
+#content_list.p_OpenSans{
+    line-height: 21.8px;
 }
 
 #content_list h1{
     font-family: "Open Sans", sans-serif;
     font-weight: bold;
     font-size: 32px;
+    line-height: 43.6px;
 }
 
 #content_list h2{
     font-family: "Open Sans", sans-serif;
     font-weight: bold;
     font-size: 28px;
+    line-height: 38px;
 }
 
 .p_OpenSans{
     font-family: "Open Sans", sans-serif;
     color: #E1624F;
     font-weight: bold;
+    line-height: 22px;
 }
 
 .bomPara{
     font-family: "Open Sans", sans-serif;
     font-weight: bold;
+    line-height: 22px;
     
 } 
 
@@ -66,20 +145,25 @@ ul{
     font-weight: bold;
     list-style-position: inside;
     padding-left: 0;
+    line-height: 21.8px;
+    
 
 }
 
 li{
     text-indent: -0.3em;
+    line-height: 21.8px;
 }
 
 .description{
     font-family: "Open Sans", sans-serif;
     font-size: 16px;
+    line-height: 21.8px;
 }
 
 #description_busan{
     text-align: center;
+    
 }
 
 #description_img{
