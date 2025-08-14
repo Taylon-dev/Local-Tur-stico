@@ -3,7 +3,11 @@
     padding: 0;
 }
 
-    
+html {
+  display: flex;
+  justify-content: center; /* horizontal */
+  
+}    
 
 body{
     background-color: #F4F5F0;
@@ -19,9 +23,7 @@ body{
 
 #container{
     height: 3054px;
-    width: 1120px;
-    border: 1px solid red;
-    
+    width: 1120px;   
 }
 
 #description_img{
@@ -32,7 +34,7 @@ body{
 #title{
     width: 1120px;
     height: 79px;
-    border: 1px solid red;
+    
 }
 
 #title h1{
@@ -40,71 +42,88 @@ body{
     font-weight: bold;
     font-size: 36px;
     line-height: 49px;
+    color: #1B1B1B;
     
 }
 
 #content_list{
     margin-top: 40px;
+    border-top: 1px solid #D9D9D9; 
 }
 
 #esp0{
     height: 8px;
-    border: 1px solid red;
+    
 }
 
 #esp1{
     height: 24px;
-    border: 1px solid red;
+    
 }
 
 #esp2{
     height: 64px;
-    border: 1px solid red;
+    
 }
 
 #esp3{
     height: 64px;
-    border: 1px solid red;
+    
 }
 
 #esp4{
     height: 20px;
-    border: 1px solid red;
+    
 }
 
 #esp5{
     height: 4px;
-    border: 1px solid red;
+    
 }
 
 #esp6{
     height: 48px;
-    border: 1px solid red;
+    
 }
 
 #esp7{
     height: 20px;
-    border: 1px solid red;
+    
 }
 
 #esp8{
     height: 4px;
-    border: 1px solid red;
+    
 }
 
 #esp9{
     height: 48px;
-    border: 1px solid red;
+    
 }
 
 #esp10{
     height: 20px;
-    border: 1px solid red;
+    
 }
 
 #esp11{
     height: 4px;
-    border: 1px solid red;
+    
+}
+
+#esp12{
+    height: 40px;
+    
+}
+
+#esp13{
+    height: 40px;
+    border-top: 1px solid #D9D9D9;
+}
+
+#esp14{
+    height: 65px;
+    
 }
 
 #content_list.p_OpenSans{
@@ -116,6 +135,7 @@ body{
     font-weight: bold;
     font-size: 32px;
     line-height: 43.6px;
+    color:#1B1B1B;
 }
 
 #content_list h2{
@@ -123,6 +143,7 @@ body{
     font-weight: bold;
     font-size: 28px;
     line-height: 38px;
+    color:#1B1B1B;
 }
 
 .p_OpenSans{
@@ -136,6 +157,7 @@ body{
     font-family: "Open Sans", sans-serif;
     font-weight: bold;
     line-height: 22px;
+    color:#333;
     
 } 
 
@@ -143,46 +165,75 @@ ul{
     font-family: "Open Sans", sans-serif;
     color: #0C51A7;
     font-weight: bold;
-    list-style-position: inside;
-    padding-left: 0;
+    list-style-position: outside;
+    padding-left: 22px;
     line-height: 21.8px;
     
 
 }
 
 li{
-    text-indent: -0.3em;
+    
     line-height: 21.8px;
+    padding-left: -15px;
+    text-indent: -0.43rem;
+    
+}
+
+ul li::marker{
+   color: #333;
+   
+}
+   
+   
+
+.azul{
+    color: #0C51A7;
+}
+
+.rosa{
+    color: #E5245E;
+}
+
+.laranja{
+    color: #E95E10;
 }
 
 .description{
     font-family: "Open Sans", sans-serif;
     font-size: 16px;
     line-height: 21.8px;
+    color: #333;
 }
 
 #description_busan{
     text-align: center;
+    color: #333;
     
 }
 
 #description_img{
     width: 1120px;
     height: 729px;
-    border: 1px solid red;
+    
+    
     
 }
 
 #content_list{
     width: 1120px;
     height: 2020px;
-    border: 1px solid red;
+    
 }
 
 #descriptionFinal{
     width: 1120px;
     height: 66px;
-    border: 1px solid red;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    text-align: center;
+    color:#333;
+    
 }
 
 .img{
@@ -193,10 +244,13 @@ li{
 footer{
     color: #333;
     text-align: center;
+    font-family: "Alice", serif;
+    font-size: 16px;
     
 }
 
 footer img {
     vertical-align: middle;
+    
     
 }
